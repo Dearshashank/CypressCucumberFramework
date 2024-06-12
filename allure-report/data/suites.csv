@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Jun 12 17:17:06 IST 2024","Wed Jun 12 17:17:14 IST 2024","7932","","Login to Practice website","","Login to Practice website","Test login feature","Test login feature",""
+"passed","Wed Jun 12 17:16:54 IST 2024","Wed Jun 12 17:17:04 IST 2024","9663","","I want to login into the site with valid data","","I want to login into the site with valid data","Login as new sign up user with valid data","Login as new sign up user with valid data",""

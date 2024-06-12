@@ -1,0 +1,28 @@
+{
+  "name": "day9",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "browser:chrome": "npx cypress run --browser=chrome --headed --spec cypress/e2e/cucumber/Tests/**.feature --reporter mocha-allure-reporter",
+    "report:allure": "allure generate allure-results --clean -o allure-report && allure open  allure-report",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ui-allure": "cypress run --brower chrome --spec cypress/e2e/cucumber/Tests/**.feature allure=true",
+    "cypress:run:loginModule": "npx cypress run --browser chrome --headless --spec 'cypress/cucumber/Tests/**.*feature' **--env allure=true --reporter mocha-allure-reporter",
+    "report:login:allure": "allure generate allure-results --clean -o allure-report && allure open allure-report",
+    "test-loginModule:allure": "npm run cypress:run:loginModule && npm run report:login:allure"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.2",
+    "allure-commandline": "^2.29.0",
+    "cypress": "^13.11.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "mocha-allure-reporter": "^1.4.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/e2e/cucumber/Tests"
+  }
+}

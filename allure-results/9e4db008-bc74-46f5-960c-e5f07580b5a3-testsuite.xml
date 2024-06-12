@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1718192803979' stop='1718192824650'>
+    <name>I want to login into the site with valid data</name>
+    <title>I want to login into the site with valid data</title>
+    <test-cases>
+        <test-case start='1718192803996' status='passed' stop='1718192814972'>
+            <name>Login as new sign up user with valid data</name>
+            <title>Login as new sign up user with valid data</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1718192814987' status='passed' stop='1718192824650'>
+            <name>Login as new sign up user with valid data</name>
+            <title>Login as new sign up user with valid data</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

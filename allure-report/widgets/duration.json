@@ -1,0 +1,1 @@
+[{"uid":"48ea597c150546e2","name":"Test login feature","time":{"start":1718192826579,"stop":1718192834511,"duration":7932},"status":"passed","severity":"normal"},{"uid":"62eb8cb44344203c","name":"Login as new sign up user with valid data","time":{"start":1718192814987,"stop":1718192824650,"duration":9663},"status":"passed","severity":"normal"}]
